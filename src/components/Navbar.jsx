@@ -45,9 +45,9 @@ const Navbar = () => {
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
           {isMenuOpen ? (
-            <HiX className="h-6 w-6" />
+            <HiX className="h-6 w-6 text-black" />
           ) : (
-            <HiMenu className="h-6 w-6" />
+            <HiMenu className="h-6 w-6 text-black" />
           )}
         </motion.button>
 
